@@ -2,6 +2,8 @@
 
 Single-agent example from the [Ara Hackathon Tour 2026](https://github.com/cyu60/ara-ai-computer) — track applications, tailor resumes per role, prep interviews, and auto-follow-up, running on the [Ara](https://ara.so) agentic operating system.
 
+**Links:** [Ara docs](https://docs.ara.so/introduction) · [Ara Hackathon Tour](https://github.com/cyu60/ara-ai-computer) · [DayDreamers](https://daydreamers.club)
+
 Part of the **Aragrams** — reference projects built by [DayDreamers](https://daydreamers.club) to show what's possible with agent-first development.
 
 ## What it does
