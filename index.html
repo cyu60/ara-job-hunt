@@ -595,12 +595,11 @@
         <p>Track applications, tailor resumes per role, prep interviews, and auto-follow-up.</p>
         <div class="welcome-suggestions" id="suggestions"></div>
       </div>
-    </div>
-
-    <div class="typing" id="typing">
-      <div class="typing-dot"></div>
-      <div class="typing-dot"></div>
-      <div class="typing-dot"></div>
+      <div class="typing" id="typing">
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      </div>
     </div>
 
     <div class="input-area">
@@ -694,6 +693,7 @@ function renderMessages() {
     });
     messagesEl.innerHTML = '';
     messagesEl.appendChild(welcomeEl);
+    messagesEl.appendChild(typingEl);
     return;
   }
   welcomeEl.style.display = 'none';
@@ -707,6 +707,7 @@ function renderMessages() {
       </div>
     `;
   }).join('');
+  messagesEl.appendChild(typingEl);
   messagesEl.scrollTop = messagesEl.scrollHeight;
 }
 
